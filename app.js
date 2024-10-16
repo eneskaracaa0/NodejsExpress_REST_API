@@ -29,6 +29,7 @@ conn();
 
 app.get('/',(req,res)=>{
     res.json({message:'deneme deneme'});
+    console.log('jenkins push github project')
 })
 
 
