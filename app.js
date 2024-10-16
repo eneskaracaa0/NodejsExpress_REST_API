@@ -35,6 +35,8 @@ app.get('/',(req,res)=>{
 
 app.listen(port,()=>{
     console.log('SERVER İS RUNNİNG ON PORT:',port);
+        console.log('jenkins push github project')
+
 })
 
 
